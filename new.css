@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Default sans-serif font */
+    font-size: 16px; /* Default font size */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: #18364c;
+}
+.head-logo {
+    font-size: 3rem;
+    font-weight: 700;
+      
+}
+ 
+.font-head-3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120px; 
+    font-weight: 600;  
+    letter-spacing: 1.67px;  
+    color: white;  
+} 
+
+.curved-text {
+    font-family: 'Palmer Lake Print', cursive; 
+    
+}
+svg {
+    width: 100%;
+    height: 100px;  
+    display: block;
+ }
+text {
+    font-size: 40px;
+    fill: white;  
+}
+
+ 
+
+.text-primary-dark {
+    color: #2c5282;
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+ 
+.number-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #a8cce8;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.list-content {
+    color: #2c5282;
+    font-size: 16px;
+}
+
+.main-title {
+    color: #2c5282;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    color: #2c5282;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 60px 20px;
+}
+ @media (max-width: 576px) {
+    .font-head-3 p {
+        font-size: 14vw; 
+    }
+}
+.story{
+    background-color: #f9f6f4;
+    
+}
+ 
+head-text{
+    font-weight: bold;
+      font-style: italic;
+}
+ 
+.form-control {
+    border-radius: 0;
+    border: 1px solid #e0e0e0;
+    padding: 0.625rem;
+    font-size: 0.9rem;
+}
+.form-select {
+    border-radius: 0;
+    border: 1px solid #e0e0e0;
+    padding: 0.625rem;
+    font-size: 0.9rem;
+    background-position: right 0.5rem center;
+}
+.form-label {
+    color: #2f5496;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+textarea.form-control {
+    min-height: 120px;
+}
+
+ 
+
+.footer {
+    background-color: #1B3543;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 4rem 0;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+     letter-spacing: -1px;
+}
+
+.footer-social {
+    margin-bottom: 2rem;
+}
+
+.footer-social a {
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.footer-social a:hover {
+    opacity: 1;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.footer-links a:hover {
+    opacity: 0.8;
+}
+
+.footer-column h3 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .footer-column {
+        margin-bottom: 2rem;
+    }
+}
+
+/* button-color */
+.btn-color{
+    background-color: #DEC0C0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.divider-line {
+     border-bottom: 1px solid;
+    height: 5px;
+    width: 150px;
+}
